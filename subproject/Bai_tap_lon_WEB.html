@@ -21,42 +21,94 @@
 <style>
     div.page {
         width: 895px;
-
+        border: 2px solid salmon;
+        color: rgb(42, 42, 42);
     }
 
     div.head1 {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         height: 50px;
+        width: 825px;
     }
 
     #head-left {
         font-family: Galyon;
         font-size: 12px;
     }
+
+    div.content1 {
+        display: flex;
+        justify-content: center;
+        height: 130px;
+        width: 825px;
+        border-top: 2px solid rgb(42, 42, 42);
+        border-bottom: 2px solid rgb(42, 42, 42);
+    }
+
+    #content-1 {
+        font-family: Sequel;
+        text-align: center;
+        line-height: 105px;
+        font-size: 85px;
+    }
+    div.content2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+        height: 50px;
+        width: 825px;
+    }
+    #content-2{
+        width: 240px;
+        height: 30px;
+        font-family: Galyon;
+        text-align: left;
+        font-size: 15px;
+    }
+    #content-3{
+        width: 240px;
+        height: 30px;
+        font-family: Galyon;
+        text-align: right;
+        font-size: 15px;
+    }
 </style>
 
 <body>
     <div class="page">
-        <div class="head1">
-            <div style="width: 130px; display: flex; justify-content: space-between;">
-                <span id="head-left"><b>Man</b></span>
-                <span id="head-left"><b>Woman</b></span>
-                <span id="head-left"><b>Kids</b></span>
+        <div align="center">
+            <div class="head1">
+                <div style="width: 130px; display: flex; justify-content: space-between;">
+                    <span id="head-left">Man</span>
+                    <span id="head-left">Woman</span>
+                    <span id="head-left">Kids</span>
+                </div>
+                <div>
+                    <span style="font-family: Sequel; font-size: 16px; margin-left: 70px;">CLOTHINGAN</span>
+                </div>
+                <div style="width: 220px; display: flex; justify-content: space-between;">
+                    <span id="head-left">Account</span>
+                    <span id="head-left">Wishlist</span>
+                    <span id="head-left">Search</span>
+                    <span id="head-left">Cart(0)</span>
+                </div>
             </div>
-            <div>
-                <span style="font-family: Sequel; font-size: 16px;">CLOTHINGAN</span>
-            </div>
-            <div style="width: 220px; display: flex; justify-content: space-between;">
-                <span id="head-left"><b>Account</b></span>
-                <span id="head-left"><b>Wishlist</b></span>
-                <span id="head-left"><b>Search</b></span>
-                <span id="head-left"><b>Cart(0)</b></span>
-            </div>
-        </div>
-        <div>
+            <div class="content1">
+                <label id="content-1">CLOTHINGAN</label>
 
+            </div>
+            <div class="content2">
+                <p id="content-2">In the whole summer show, this is the designer's best look yet.</p>
+                <p id="content-3">05.11<br>2022</p>
+            </div>
+            <div style="margin-top: 10px;">
+                <img src="D:\TAI_LIEU_HOC\WED\CODE\SUBPROJECT\images\Clothingan.jpg" alt="">
+            </div>
+
+            </div>
         </div>
     </div>
 </body>
