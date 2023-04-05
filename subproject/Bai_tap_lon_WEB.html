@@ -16,6 +16,11 @@
             font-family: Galyon;
             src: url(fonts/Galyon-Book.otf);
         }
+
+        @font-face {
+            font-family: Genos;
+            src: url(fonts/Genos-SemiBold.ttf);
+        }
     </style>
 </head>
 <style>
@@ -53,7 +58,8 @@
         line-height: 105px;
         font-size: 85px;
     }
-    div.content2{
+
+    div.content2 {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -61,19 +67,56 @@
         height: 50px;
         width: 825px;
     }
-    #content-2{
+
+    #content-2 {
         width: 240px;
         height: 30px;
         font-family: Galyon;
         text-align: left;
         font-size: 15px;
     }
-    #content-3{
+
+    #content-3 {
         width: 240px;
         height: 30px;
         font-family: Galyon;
         text-align: right;
         font-size: 15px;
+    }
+
+    div.best-seller {
+        width: 825px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    div.best-seller-title {
+        width: 825px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #bs2 {
+        height: 45px;
+        font-family: Galyon;
+        font-size: 15px;
+        width: 265px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid rgb(42, 42, 42);
+    }
+    #bs3 {
+        height: 45px;
+        font-family: Galyon;
+        font-size: 15px;
+        width: 405px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid rgb(42, 42, 42);
     }
 </style>
 
@@ -105,11 +148,66 @@
                 <p id="content-3">05.11<br>2022</p>
             </div>
             <div style="margin-top: 10px;">
-                <img src="D:\TAI_LIEU_HOC\WED\CODE\SUBPROJECT\images\Clothingan.jpg" alt="">
+                <img src="images/Clothingan.jpg" alt="">
             </div>
+            <div
+                style="width: 825px;margin-top: 50px; display: flex; justify-content: space-between; align-items: center;">
+                <span style="font-family: Genos; font-size: 40px;">BEST SELLER</span>
+                <span style="font-family: Galyon;">See all <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                        height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z" />
+                    </svg></span>
 
             </div>
+            <hr style="width: 825px; border: 1px solid rgb(42, 42, 42);">
+            <div class="best-seller">
+                <img id="bs1" src="images/BestSeller1.png" alt="">
+                <img id="bs1" src="images/BestSeller2.png" alt="">
+                <img id="bs1" src="images/BestSeller3.png" alt="">
+            </div>
+            <div class="best-seller-title">
+                <div id="bs2">
+                    <span>Square textured sweater</span>
+                    <span>$34</span>
+                </div>
+                <div id="bs2">
+                    <span>Combination bomber jacket</span>
+                    <span>$29</span>
+                </div>
+                <div id="bs2">
+                    <span>Wool blend jacket</span>
+                    <span>$41</span>
+                </div>
+            </div>
+            <div
+                style="width: 825px;margin-top: 50px; display: flex; justify-content: space-between; align-items: center;">
+                <span style="font-family: Genos; font-size: 40px;">LASTEST ARRIVALS</span>
+                <span style="font-family: Galyon;">See all <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                        height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z" />
+                    </svg></span>
+
+            </div>
+            <hr style="width: 825px; border: 1px solid rgb(42, 42, 42);">
+            <div class="best-seller">
+                <img id="bs1" src="images/Laux.png" alt="">
+                <img id="bs1" src="images/Belle.png" alt="">
+            </div>
+            <div class="best-seller-title">
+                <div id="bs3">
+                    <span>Faux suede jacket</span>
+                    <span>$63</span>
+                </div>
+                <div id="bs3">
+                    <span>Belle blue pants</span>
+                    <span>$99</span>
+                </div>
+            </div>
         </div>
+
+    </div>
     </div>
 </body>
 
