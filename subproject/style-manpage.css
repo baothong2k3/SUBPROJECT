@@ -59,3 +59,27 @@ div.best-seller-title {
     align-items: center;
     border-bottom: 1px solid rgb(42, 42, 42);
 }
+div.footer {
+    margin-top: 65px;
+    width: 895px;
+    height: 340px;
+    background-color: black;
+}
+
+div.footer1 {
+    color: #ffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.footer2 {
+    margin-top: 10px;
+    width: 825px;
+    color: rgb(135, 135, 135);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    font-family: Galyon;
+}
