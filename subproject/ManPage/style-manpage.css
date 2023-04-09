@@ -1,22 +1,29 @@
 div.page {
-    /* width: 895px; */
+    width: auto;
     color: rgb(42, 42, 42);
+    font-family: Galyon;
 }
-
 div.head1 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 50px;
     width: 825px;
 }
-
+div.head1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+  }
 #head-left {
     font-family: Galyon;
     font-size: 12px;
 }
-
 div.content1 {
+    margin-top: 75px;
     display: flex;
     justify-content: center;
     height: 130px;
@@ -24,45 +31,25 @@ div.content1 {
     border-top: 2px solid rgb(42, 42, 42);
     border-bottom: 2px solid rgb(42, 42, 42);
 }
-
 #content-1 {
     font-family: Sequel;
     text-align: center;
     line-height: 105px;
     font-size: 85px;
 }
-
-div.content2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 10px;
-    height: 50px;
+div.link{
+    font-family: Sequel;
     width: 825px;
+    font-size: 50px;
+    display: flex;
+    justify-content: left;
 }
-
-#content-2 {
-    width: 240px;
-    height: 30px;
-    font-family: Galyon;
-    text-align: left;
-    font-size: 15px;
-}
-
-#content-3 {
-    width: 240px;
-    height: 30px;
-    font-family: Galyon;
-    text-align: right;
-    font-size: 15px;
-}
-
 div.best-seller {
     width: 825px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 div.best-seller-title {
@@ -71,7 +58,6 @@ div.best-seller-title {
     justify-content: space-between;
     align-items: center;
 }
-
 #bs2 {
     height: 45px;
     font-family: Galyon;
@@ -82,26 +68,6 @@ div.best-seller-title {
     align-items: center;
     border-bottom: 1px solid rgb(42, 42, 42);
 }
-
-#bs3 {
-    height: 45px;
-    font-family: Galyon;
-    font-size: 15px;
-    width: 405px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid rgb(42, 42, 42);
-}
-
-div.fashion {
-    width: 825px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 30px;
-}
-
 div.footer {
     margin-top: 65px;
     width: 895px;
