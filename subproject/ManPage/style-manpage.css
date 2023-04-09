@@ -15,15 +15,14 @@ div.head1 {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #333;
-    color: #fff;
+    background-color: #ffff;
   }
 #head-left {
     font-family: Galyon;
     font-size: 12px;
 }
 div.content1 {
-    margin-top: 75px;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     height: 130px;
