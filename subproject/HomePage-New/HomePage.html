@@ -23,6 +23,29 @@
             width: 100%;
             height: 100%;
         }
+
+        #menu {
+            background-color: white;
+        }
+
+        #btnn {
+            width: 340px;
+            height: 40px;
+            max-height: 40px;
+            font-size: 13px;
+            border: 0px;
+            background-color: white;
+        }
+
+        #btnn:hover::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: 2px;
+            width: 100%;
+            background-color: black;
+        }
     </style>
 </head>
 
@@ -86,7 +109,7 @@
                     class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover" href="#">
                     <b>WINTER WARMERS</b></a>
             </div>
-            <div>
+            <div style="margin-right: 150px;">
                 <img loading="lazy" class="" width="254" alt="Sportscraft"
                     src="https://res.cloudinary.com/sportscraft/image/upload/c_fill,g_faces:auto,h_55,q_auto,w_254/ccldmecxkahqpvrlnfll"
                     srcset="https://res.cloudinary.com/sportscraft/image/upload/c_fill,g_faces:auto,h_55,q_auto,w_254/ccldmecxkahqpvrlnfll 1x, https://res.cloudinary.com/sportscraft/image/upload/c_fill,g_faces:auto,h_110,q_auto,w_508/ccldmecxkahqpvrlnfll 2x"
@@ -128,8 +151,13 @@
         </div>
     </div>
 
-    <div style="height: 735px;">
+    <div style="height: 735px;" class="position-relative">
         <video src="images-homepage/Video.mp4" autoplay muted loop style="width: 100%;"></video>
+        <div style="margin-bottom: 20px;" class="position-absolute bottom-0 start-50 translate-middle">
+            <button id="btnn"><a href="" class="link-dark link-underline-opacity-0">
+                    <span style="position: relative;"><b>DISCOVER MORE</b></span>
+                </a></button>
+        </div>
     </div>
     <div style="width: 100%;" class="d-flex">
         <img width="50%" height="50%" src="images-homepage/knitsshirtsOFFER_L2.png" alt="">
