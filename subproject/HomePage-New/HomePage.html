@@ -23,29 +23,6 @@
             width: 100%;
             height: 100%;
         }
-
-        #menu {
-            background-color: white;
-        }
-
-        #btnn {
-            width: 340px;
-            height: 40px;
-            max-height: 40px;
-            font-size: 13px;
-            border: 0px;
-            background-color: white;
-        }
-
-        #btnn:hover::after {
-            content: "";
-            position: absolute;
-            left: 0;
-            bottom: 0;
-            height: 2px;
-            width: 100%;
-            background-color: black;
-        }
     </style>
 </head>
 
@@ -160,8 +137,23 @@
         </div>
     </div>
     <div style="width: 100%;" class="d-flex">
-        <img width="50%" height="50%" src="images-homepage/knitsshirtsOFFER_L2.png" alt="">
-        <img width="50%" height="50%" src="images-homepage/knitsshirtsOFFER_R2.png" alt="">
+        <div style="position: relative;" >
+            <img width="100%" height="100%" src="images-homepage/knitsshirtsOFFER_L2.png" alt="">
+        <div style="margin-bottom: 40px;" class="position-absolute bottom-0 start-50 translate-middle-x">
+            <button id="btn2"><a href="" class="link-dark link-underline-opacity-0">
+                    <span style="position: relative; color: white;"><b>SHOP WOMEN</b></span>
+                </a></button>
+        </div>
+        </div>
+        <div style="position: relative;">
+            <img width="100%" height="100%" src="images-homepage/knitsshirtsOFFER_R2.png" alt="">
+        <div style="margin-bottom: 40px;" class="position-absolute bottom-0 start-50 translate-middle-x">
+            <button id="btn2"><a href="" class="link-dark link-underline-opacity-0">
+                    <span style="position: relative; color: white;"><b>SHOP MEN</b></span>
+                </a></button>
+        </div>
+        </div>
+        
     </div>
     <div class="d-flex">
         <img width="50%" height="50%" src="images-homepage/AprilBAU10.png" alt="">
