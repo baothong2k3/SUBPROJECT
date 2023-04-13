@@ -2,7 +2,7 @@
     background-color: white;
 }
 
-#btnn {
+#btn1 {
     width: 340px;
     height: 40px;
     max-height: 40px;
@@ -11,7 +11,7 @@
     background-color: white;
 }
 
-#btnn:hover::after {
+#btn1:hover::after {
     content: "";
     position: absolute;
     left: 0;
@@ -38,4 +38,69 @@
     height: 2.5px;
     width: 100%;
     background-color: white;
+}
+
+#btn3 {
+    width: 340px;
+    height: 40px;
+    max-height: 40px;
+    font-size: 14px;
+    border: 0.5px solid white;
+    background-color: rgb(234, 52, 58);
+}
+
+#btn3:hover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2.5px;
+    width: 100%;
+    background-color: white;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    transition: opacity 0.3s ease;
+}
+
+.image-container:hover img {
+    filter: brightness(50%);
+}
+
+.instagram-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    width: 32px;
+    height: 32px;
+    background-image: url('images-homepage/instagram.png');
+    background-size: cover;
+}
+
+.p1 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    color: white;
+
+}
+
+.image-container:hover .instagram-icon {
+    display: block;
+}
+
+.image-container:hover .p1 {
+    display: block;
 }
