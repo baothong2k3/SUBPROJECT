@@ -40,3 +40,34 @@
 .input-center::placeholder {
   padding-left: 10px;
 }
+
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.categories-list {
+  display: flex;
+  list-style: none;
+  margin: 40px;
+}
+
+.categories-list img {
+  width: 372px;
+  height: 450px;
+}
+
+.categories-list__item {
+  width: 100%;
+  padding: 0px 10px;
+}
+
+.text-color-black {
+  color: black;
+}
+
+.margin-top-20px {
+  margin-top: 20px;
+}
