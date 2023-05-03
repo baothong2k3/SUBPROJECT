@@ -1,6 +1,6 @@
 # SUBPROJECT
 
-Tên đề tài: Clothingan - Fashion Ecommerce Website
+Tên đề tài: SPORTSCRAFT
 
 Thành viên:
 
