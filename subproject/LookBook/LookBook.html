@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="LookBook.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <style>
+        @font-face {
+            font-family: SoinSans;
+            src: url(fonts/Soin\ Sans\ Neue.otf);
+        }
+
+        @font-face {
+            font-family: Chivo;
+            src: url(fonts/ChivoMono-Regular.ttf);
+        }
+
+        body {
+            font-family: SoinSans;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="d-flex align-items-center justify-content-between"
+        style="width: 100%; height: 50px; background-color: black; color: white;">
+        <div style="margin-left: 30px; font-size: 14px;">
+            <span style="margin-left: 10px;">20% off knits & shirts!</span>
+            <a style="margin-left: 10px;"
+                class="link-light link-offset-1 link-underline-opacity-100 link-underline-opacity-0-hover" href="#">Shop
+                Women</a>
+            <a style="margin-left: 10px;"
+                class="link-light link-offset-1 link-underline-opacity-100 link-underline-opacity-0-hover" href="#">Shop
+                Men</a>
+        </div>
+        <div style="font-size: 12px; margin-right: 40px;">
+            <a href="#" style="margin-right: 50px;"
+                class="icon-link link-underline-light link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                </svg>WISHLIST
+            </a>
+            <a href="#" style="margin-right: 50px;"
+                class="icon-link link-underline-light link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
+                    <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                </svg>STORE LOCATOR
+            </a>
+            <a href="#"
+                class="icon-link link-underline-light link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">
+                <img src="images-lookbook/australia.png" alt="">AUD <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                    height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                </svg>
+            </a>
+        </div>
+    </div>
+    <div class="sticky-top">
+        <div id="menu" class="d-flex align-items-center justify-content-between"
+            style="width: 100%; height: 60px; margin: auto;">
+            <div style="margin-left: 30px; font-size: 12px;">
+                <a style="margin-left: 10px;"
+                    class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover" href="#">
+                    <b>SALE</b></a>
+                <a style="margin-left: 60px;"
+                    class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover" href="#">
+                    <b>WOMEN</b></a>
+                <a style="margin-left: 60px;"
+                    class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover" href="#">
+                    <b>MEN</b></a>
+                <a style="margin-left: 60px;"
+                    class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover" href="#">
+                    <b>KIDS</b></a>
+                <a style="margin-left: 60px;"
+                    class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover" href="#">
+                    <b>WINTER WARMERS</b></a>
+            </div>
+            <div style="margin-right: 150px;">
+                <img loading="lazy" class="" width="254" alt="Sportscraft"
+                    src="https://res.cloudinary.com/sportscraft/image/upload/c_fill,g_faces:auto,h_55,q_auto,w_254/ccldmecxkahqpvrlnfll"
+                    srcset="https://res.cloudinary.com/sportscraft/image/upload/c_fill,g_faces:auto,h_55,q_auto,w_254/ccldmecxkahqpvrlnfll 1x, https://res.cloudinary.com/sportscraft/image/upload/c_fill,g_faces:auto,h_110,q_auto,w_508/ccldmecxkahqpvrlnfll 2x"
+                    height="55">
+            </div>
+            <div class="d-flex" style="font-size: 12px;">
+                <a href="#" style="margin-right: 50px;"
+                    class="icon-link link-underline-dark link-dark link-underline-opacity-0 link-underline-opacity-100-hover">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-search" viewBox="0 0 16 16">
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                    </svg><b>SEARCH</b>
+                </a>
+                <div class="d-flex align-content-center">
+                    <a href="#"
+                        class="icon-link link-underline-dark link-dark link-underline-opacity-0 link-underline-opacity-100-hover">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-person-circle" viewBox="0 0 16 16">
+                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                            <path fill-rule="evenodd"
+                                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                        </svg><b>LOGIN</b>
+                    </a>
+                    <span>&ensp;|&ensp;</span>
+                    <a href="#" style="margin-right: 50px;"
+                        class="icon-link link-underline-dark link-dark link-underline-opacity-0 link-underline-opacity-100-hover">
+                        <b>SIGN UP</b>
+                    </a>
+                </div>
+                <a href="#" style="margin-right: 40px;"
+                    class="icon-link link-underline-dark link-dark link-underline-opacity-0 link-underline-opacity-100-hover">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-bag-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z" />
+                    </svg><b>MY BAG</b></a>
+            </div>
+        </div>
+
+        <div>
+            <img width="100%" src="./images-lookbook/420_SC_wk36_Online_ContentPage_WinterWarmers_v22.avif" alt="">
+            <p class="text" style="margin-top: 40px;">Winter is coming. Get cosy in
+                our new collection, designed to invite comfort and warmth into everyday moments.</p>
+            <div class="d-flex" style="margin-top: 40px;">
+                <a href=""><img src="./images-lookbook/1233_SC_wk25_Online_ContentPage_ClubSport_CTA_01_V2.avif"
+                        alt=""></a>
+                <a href=""><img src="./images-lookbook/1233_SC_wk25_Online_ContentPage_ClubSport_CTA_02_V2.avif"
+                        alt=""></a>
+            </div>
+            <div class="d-flex justify-content-center" style="width: 90%; margin: auto; margin-top: 40px; gap: 15px;">
+                <a href=""><img width="100%"
+                        src="./images-lookbook/420_SC_wk36_Online_ContentPage_WinterWarmers_v24.avif" alt=""></a>
+                <a href=""><img width="100%"
+                        src="./images-lookbook/420_SC_wk36_Online_ContentPage_WinterWarmers_v25.avif" alt=""></a>
+            </div>
+            <div style=" margin: auto; margin-top: 70px">
+                <p style="width: 500px; font-size: 12px; color: rgb(110, 110, 110); margin: auto;">
+                    LEFT: <a class="link-secondary link-underline-secondary link-underline-opacity-0-hover"
+                        href="">Audrey
+                        Trench</a>, <a class="link-secondary link-underline-secondary link-underline-opacity-0-hover"
+                        href="">Alder Oxford Shirt</a>, <a
+                        class="link-secondary link-underline-secondary link-underline-opacity-0-hover" href="">Tatiana
+                        Relaxed
+                        Cardigan</a>, <a class="link-secondary link-underline-secondary link-underline-opacity-0-hover"
+                        href="">Cleo Velvet Pant</a>
+                    RIGHT: <a class="link-secondary link-underline-secondary link-underline-opacity-0-hover"
+                        href="">Newcombe
+                        Tapered Shirt</a>, <a
+                        class="link-secondary link-underline-secondary link-underline-opacity-0-hover" href="">Ashe
+                        Crew</a>, 5 Pocket Moleskin Jean (Coming in May)
+                </p>
+            </div>
+            <div style="margin-top: 50px;">
+                <img width="100%" src="./images-lookbook/420_SC_wk36_Online_ContentPage_WinterWarmers_v26.avif" alt="">
+            </div>
+            <p style="margin: auto; margin-top: 30px; width: 250px; font-size: 12px; color: rgb(110, 110, 110);">
+                <a class="link-secondary link-underline-secondary link-underline-opacity-0-hover" href="">Tatiana Mohair
+                    Knit</a>,
+                ,<a class="link-secondary link-underline-secondary link-underline-opacity-0-hover" href="">Tatiana
+                    Mohair Scarf</a>
+            </p>
+            <div style="margin-top: 70px;">
+                <p class="text">In anticipation of colder weather, we've
+                    reimagined our most loved classics in fuzzy mohair, soft cord, and Merino wool.</p>
+            </div>
+            <div class="d-flex justify-content-center" style="margin: auto; margin-top: 40px;">
+                <img width="35%" src="./images-lookbook/420_SC_wk36_Online_ContentPage_WinterWarmers_v27.avif" alt="">
+            </div>
+            <p style="margin: auto; margin-top: 30px; width: 350px; font-size: 12px;">
+                <a class="link-secondary link-underline-secondary link-underline-opacity-0-hover" href="">Sunflower
+                    Speckle Polo</a>
+                , <a class="link-secondary link-underline-secondary link-underline-opacity-0-hover" href="">Lari Slim
+                    Jean</a>,
+                <a class="link-secondary link-underline-secondary link-underline-opacity-0-hover" href="">Chain Silk
+                    Scarf</a>
+            </p>
+            <div class="d-flex" style="margin: auto;margin-top: 70px; width: 90%; gap: 20px;">
+                <a href=""><img width="100%"
+                        src="./images-lookbook/420_SC_wk36_Online_ContentPage_WinterWarmers_v28.avif" alt=""></a>
+                <a href=""><img width="100%"
+                        src="./images-lookbook/420_SC_wk36_Online_ContentPage_WinterWarmers_v29.avif" alt=""></a>
+            </div>
+            <div
+                style="width: 450px; font-size: 12px; color: rgb(110, 110, 110); margin: auto; margin-top: 70px; text-align: center;">
+                LEFT: <a class="link-secondary link-underline-secondary link-underline-opacity-0-hover" href="">Saskia
+                    Jacket</a>, <a class="link-secondary link-underline-secondary link-underline-opacity-0-hover"
+                    href="">Laurina Turtle Neck Knit Top</a>, <a
+                    class="link-secondary link-underline-secondary link-underline-opacity-0-hover" href="">Frankie Twill
+                    Wide Leg Pant</a>
+                RIGHT: <a class="link-secondary link-underline-secondary link-underline-opacity-0-hover"
+                    href="">Griffiths Cord Regular Shirt</a>, <a
+                    class="link-secondary link-underline-secondary link-underline-opacity-0-hover" href="">Drysdale
+                    Crew</a>, <a class="link-secondary link-underline-secondary link-underline-opacity-0-hover"
+                    href="">Portland Relaxed Jean</a>
+            </div>
+            <div style="margin-top: 70px;">
+                <p class="text">A celebration of quality and craftsmanship, discover Australian essentials that will be
+                    loved for seasons to come.</p>
+            </div>
+            <div class="d-flex justify-content-center" style="margin: auto; margin-top: 40px;">
+                <img width="35%" src="./images-lookbook/420_SC_wk36_Online_ContentPage_WinterWarmers_v210.avif" alt="">
+            </div>
+            <p style="margin: auto; margin-top: 30px; font-size: 12px; width: 450px; color: rgb(110, 110, 110);">
+                Mina Blazer (Coming Soon), <a
+                    class="link-secondary link-underline-secondary link-underline-opacity-0-hover" href="">The Perfect
+                    T-Shirt</a>, <a class="link-secondary link-underline-secondary link-underline-opacity-0-hover"
+                    href="">Frankie Twill Wide Leg Pant</a>
+            </p>
+            <div style="margin-top: 40px;">
+                <img width="100%" src="./images-lookbook/420_SC_wk36_Online_ContentPage_WinterWarmers_v211.avif" alt="">
+            </div>
+            <div
+                style=" margin: auto; font-size: 12px; margin-top: 40px; width: 480px; color: rgb(110, 110, 110); text-align: center;">
+                <p>
+                    LEFT: <a class="link-secondary link-underline-secondary link-underline-opacity-0-hover"
+                        href="">Italian Moleskin Blazer</a>, Scott Shawl Neck Knit (Coming Soon), <a
+                        class="link-secondary link-underline-secondary link-underline-opacity-0-hover" href="">Willard
+                        Rugby Polo</a>
+                    MIDDLE: The Italian Moleskin Blazer (Coming Soon), <a
+                        class="link-secondary link-underline-secondary link-underline-opacity-0-hover" href="">Merino
+                        Wool Cable Sweater</a>
+                    RIGHT: <a class="link-secondary link-underline-secondary link-underline-opacity-0-hover"
+                        href="">Harrison Quarter Zip Knit</a>, <a
+                        class="link-secondary link-underline-secondary link-underline-opacity-0-hover" href="">Supersoft
+                        Tee</a>, <a class="link-secondary link-underline-secondary link-underline-opacity-0-hover"
+                        href="">Portland Relaxed Jean</a>
+                </p>
+            </div>
+            <div class="d-flex justify-content-center" style="margin-top: 40px;">
+                <img width="35%" src="./images-lookbook/420_SC_wk36_Online_ContentPage_WinterWarmers_v212.avif" alt="">
+            </div>
+            <p style="font-size: 12px; width: 350px; margin: auto; margin-top: 40px;">
+                <a class="link-secondary link-underline-secondary link-underline-opacity-0-hover" href="">Mariana Wool
+                    Blend Peacoat</a>, <a class="link-secondary link-underline-secondary link-underline-opacity-0-hover"
+                    href="">Sunshine Embellished Sweater</a>
+            </p>
+            <div class="d-flex" style="margin-top: 40px;">
+                <a href=""><img src="./images-lookbook/1233_SC_wk25_Online_ContentPage_ClubSport_CTA_01_V2.avif"
+                        alt=""></a>
+                <a href=""><img src="./images-lookbook/1233_SC_wk25_Online_ContentPage_ClubSport_CTA_02_V2.avif"
+                        alt=""></a>
+            </div>
+        </div>
+        <hr style="margin-top: 40px;">
+        <div style="width: 80%; height: 220px; margin: auto; font-size: 12px;"
+            class="hstack gap-3 d-flex align-items-start">
+            <div class="d-flex justify-content-around align-items-start">
+                <div class="p-4" style="line-height: 1.0;">
+                    <p><b>SERVICES</b></p>
+                    <p><a href=""
+                            class="link-secondary link-offset-1 link-underline-opacity-0 link-underline-opacity-100-hover">Help</a>
+                    </p>
+                    <p><a href=""
+                            class="link-secondary link-offset-1 link-underline-opacity-0 link-underline-opacity-100-hover">Delivery</a>
+                    </p>
+                    <p><a href=""
+                            class="link-secondary link-offset-1 link-underline-opacity-0 link-underline-opacity-100-hover">Easy
+                            Returns</a></p>
+                    <p><a href=""
+                            class="link-secondary link-offset-1 link-underline-opacity-0 link-underline-opacity-100-hover">Order
+                            Tracking</a></p>
+                    <p><a href=""
+                            class="link-secondary link-offset-1 link-underline-opacity-0 link-underline-opacity-100-hover">Size
+                            Guide</a></p>
+                    <p><a href=""
+                            class="link-secondary link-offset-1 link-underline-opacity-0 link-underline-opacity-100-hover">Gift
+                            Card Balance</a></p>
+                </div>
+                <div class="p-4 ms-5" style="line-height: 1.0;">
+                    <p><b>ABOUT</b></p>
+                    <p><a href=""
+                            class="link-secondary link-offset-1 link-underline-opacity-0 link-underline-opacity-100-hover">About
+                            Us</a></p>
+                    <p><a href=""
+                            class="link-secondary link-offset-1 link-underline-opacity-0 link-underline-opacity-100-hover">Sportscraft
+                            VIP</a></p>
+                    <p><a href=""
+                            class="link-secondary link-offset-1 link-underline-opacity-0 link-underline-opacity-100-hover">Careers</a>
+                    </p>
+                    <p><a href=""
+                            class="link-secondary link-offset-1 link-underline-opacity-0 link-underline-opacity-100-hover">Made
+                            For Life Blog</a></p>
+                </div>
+                <div class="p-4 ms-5" style="line-height: 1.0;">
+                    <p><b>CONNECT</b></p>
+                    <p><a href=""
+                            class="link-secondary link-offset-1 link-underline-opacity-0 link-underline-opacity-100-hover">Contact
+                            Us</a></p>
+                    <p><a href=""
+                            class="link-secondary link-offset-1 link-underline-opacity-0 link-underline-opacity-100-hover">Instagram</a>
+                    </p>
+                    <p><a href=""
+                            class="link-secondary link-offset-1 link-underline-opacity-0 link-underline-opacity-100-hover">Facebook</a>
+                    </p>
+                </div>
+                <div class="p-4 ms-5" style="line-height: 1.0;">
+                    <p><b>STORES</b></p>
+                    <p><a href=""
+                            class="link-secondary link-offset-1 link-underline-opacity-0 link-underline-opacity-100-hover">Find
+                            A Store</a></p>
+                </div>
+                <div class="p-4 ms-5" style="line-height: 1.0;">
+                    <p><b>POLICIES</b></p>
+                    <p><a href=""
+                            class="link-secondary link-offset-1 link-underline-opacity-0 link-underline-opacity-100-hover">Terms
+                            & Conditions</a></p>
+                    <p><a href=""
+                            class="link-secondary link-offset-1 link-underline-opacity-0 link-underline-opacity-100-hover">Privacy
+                            Policy</a></p>
+                </div>
+            </div>
+            <div class="vr ms-auto"></div>
+            <div class="p-4 ms-5">
+                <div class="d-flex flex-column">
+                    <div class="d-flex flex-column justify-content-around">
+                        <p>BECOME A VIP</p>
+                        <p>Become a VIP today to be the first to know about exclusive sales, new arrivals and more!</p>
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Enter email address">
+                        <button class="btn btn-dark"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                            </svg></button>
+                    </div>
+                    <div>
+                        <img src="images-lookbook/IG.svg" alt="">
+                        <img src="images-lookbook/FB.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div style="width: 78%; height: 25px; margin: auto;" class="d-flex justify-content-between align-items-center">
+            <p style="font-size: 12px;">2023 APG & CO</p>
+            <div>
+                <img src="images-lookbook/visa.svg" alt="">
+                <img src="images-lookbook/mastercard.svg" alt="">
+                <img src="images-lookbook/us.svg" alt="">
+                <img src="images-lookbook/paypal.svg" alt="">
+                <img src="images-lookbook/klarna.svg" alt="">
+                <img src="images-lookbook/afterpay.svg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
