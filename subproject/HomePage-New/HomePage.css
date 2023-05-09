@@ -21,7 +21,7 @@
     background-color: black;
 }
 
-#btn2 {
+.btn2 {
     width: 340px;
     height: 40px;
     max-height: 40px;
@@ -30,7 +30,7 @@
     background-color: rgb(183, 145, 105);
 }
 
-#btn2:hover::after {
+.btn2:hover::after {
     content: "";
     position: absolute;
     left: 0;
